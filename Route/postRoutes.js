@@ -12,7 +12,7 @@ const {
 } = require("../Controller/postCtrl");
 const postRouter = express.Router();
 const isLogin = require("../middlewares/isLogin");
-const storage = require("../config/cloudinary");
+const storage = require("../Config/cloudinary")
 const multer = require("multer");
 const upload = multer({ storage });
 // const isAdmin = require("../middlewares/isAdmin");
